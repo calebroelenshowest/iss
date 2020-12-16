@@ -14,7 +14,7 @@ const registerListeners = () => { // Listeners (Events)
 
   let openAppbtn = document.querySelector(".js-open-app");
   openAppbtn.addEventListener("click", function () {
-    window.location = window.location.href.replace("/index.html", "/app.html");
+    window.location = window.location.href.replace("/index", "/app.html");
   });
 };
 
